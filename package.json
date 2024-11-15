@@ -3,9 +3,10 @@
   "description": "Generate .http file from OpenAPI specs",
   "version": "1.0.0",
   "type": "module",
-  "main": "./dist/index.js",
+  "main": "./dist/main.js",
   "scripts": {
-    "build": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json",
+    "generate": "node ./dist/main.js"
   },
   "author": "Ben Coleman",
   "license": "MIT",
