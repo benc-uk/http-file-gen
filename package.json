@@ -1,0 +1,21 @@
+{
+  "name": "http-file-gen",
+  "description": "Generate .http file from OpenAPI specs",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "author": "Ben Coleman",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/node": "^17.0.13",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@scalar/openapi-parser": "^0.8.9",
+    "commander": "^9.2.0"
+  }
+}
